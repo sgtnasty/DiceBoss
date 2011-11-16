@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1427BFF1473DF270085AF52 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1427BFE1473DF270085AF52 /* Cocoa.framework */; };
+		D1427C091473DF270085AF52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1427C071473DF270085AF52 /* InfoPlist.strings */; };
+		D1427C0B1473DF270085AF52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1427C0A1473DF270085AF52 /* main.m */; };
+		D1427C0F1473DF270085AF52 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D1427C0D1473DF270085AF52 /* Credits.rtf */; };
+		D1427C121473DF270085AF52 /* DBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1427C111473DF270085AF52 /* DBAppDelegate.m */; };
+		D1427C151473DF270085AF52 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1427C131473DF270085AF52 /* MainMenu.xib */; };
+		D1427C1D1473DF270085AF52 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1427C1C1473DF270085AF52 /* SenTestingKit.framework */; };
+		D1427C1E1473DF270085AF52 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1427BFE1473DF270085AF52 /* Cocoa.framework */; };
+		D1427C261473DF270085AF52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1427C241473DF270085AF52 /* InfoPlist.strings */; };
+		D1427C291473DF270085AF52 /* DiceBossTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1427C281473DF270085AF52 /* DiceBossTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1427C1F1473DF270085AF52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1427BF11473DF260085AF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1427BF91473DF260085AF52;
+			remoteInfo = DiceBoss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1427BFA1473DF270085AF52 /* DiceBoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceBoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1427BFE1473DF270085AF52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D1427C011473DF270085AF52 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D1427C021473DF270085AF52 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D1427C031473DF270085AF52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1427C061473DF270085AF52 /* DiceBoss-Info.plist */ = {isa = PBXFileReference; path = "DiceBoss-Info.plist"; sourceTree = "<group>"; };
+		D1427C081473DF270085AF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1427C0A1473DF270085AF52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1427C0C1473DF270085AF52 /* DiceBoss-Prefix.pch */ = {isa = PBXFileReference; path = "DiceBoss-Prefix.pch"; sourceTree = "<group>"; };
+		D1427C0E1473DF270085AF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D1427C101473DF270085AF52 /* DBAppDelegate.h */ = {isa = PBXFileReference; path = DBAppDelegate.h; sourceTree = "<group>"; };
+		D1427C111473DF270085AF52 /* DBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAppDelegate.m; sourceTree = "<group>"; };
+		D1427C141473DF270085AF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D1427C1B1473DF270085AF52 /* DiceBossTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceBossTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1427C1C1473DF270085AF52 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D1427C231473DF270085AF52 /* DiceBossTests-Info.plist */ = {isa = PBXFileReference; path = "DiceBossTests-Info.plist"; sourceTree = "<group>"; };
+		D1427C251473DF270085AF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1427C271473DF270085AF52 /* DiceBossTests.h */ = {isa = PBXFileReference; path = DiceBossTests.h; sourceTree = "<group>"; };
+		D1427C281473DF270085AF52 /* DiceBossTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceBossTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1427BF71473DF260085AF52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1427BFF1473DF270085AF52 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1427C171473DF270085AF52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1427C1D1473DF270085AF52 /* SenTestingKit.framework in Frameworks */,
+				D1427C1E1473DF270085AF52 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1427BEF1473DF260085AF52 = {
+			isa = PBXGroup;
+			children = (
+				D1427C041473DF270085AF52 /* DiceBoss */,
+				D1427C211473DF270085AF52 /* DiceBossTests */,
+				D1427BFD1473DF270085AF52 /* Frameworks */,
+				D1427BFB1473DF270085AF52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1427BFB1473DF270085AF52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1427BFA1473DF270085AF52 /* DiceBoss.app */,
+				D1427C1B1473DF270085AF52 /* DiceBossTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1427BFD1473DF270085AF52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1427BFE1473DF270085AF52 /* Cocoa.framework */,
+				D1427C1C1473DF270085AF52 /* SenTestingKit.framework */,
+				D1427C001473DF270085AF52 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1427C001473DF270085AF52 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1427C011473DF270085AF52 /* AppKit.framework */,
+				D1427C021473DF270085AF52 /* CoreData.framework */,
+				D1427C031473DF270085AF52 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D1427C041473DF270085AF52 /* DiceBoss */ = {
+			isa = PBXGroup;
+			children = (
+				D1427C101473DF270085AF52 /* DBAppDelegate.h */,
+				D1427C111473DF270085AF52 /* DBAppDelegate.m */,
+				D1427C131473DF270085AF52 /* MainMenu.xib */,
+				D1427C051473DF270085AF52 /* Supporting Files */,
+			);
+			path = DiceBoss;
+			sourceTree = "<group>";
+		};
+		D1427C051473DF270085AF52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1427C061473DF270085AF52 /* DiceBoss-Info.plist */,
+				D1427C071473DF270085AF52 /* InfoPlist.strings */,
+				D1427C0A1473DF270085AF52 /* main.m */,
+				D1427C0C1473DF270085AF52 /* DiceBoss-Prefix.pch */,
+				D1427C0D1473DF270085AF52 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1427C211473DF270085AF52 /* DiceBossTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1427C271473DF270085AF52 /* DiceBossTests.h */,
+				D1427C281473DF270085AF52 /* DiceBossTests.m */,
+				D1427C221473DF270085AF52 /* Supporting Files */,
+			);
+			path = DiceBossTests;
+			sourceTree = "<group>";
+		};
+		D1427C221473DF270085AF52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1427C231473DF270085AF52 /* DiceBossTests-Info.plist */,
+				D1427C241473DF270085AF52 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1427BF91473DF260085AF52 /* DiceBoss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1427C2C1473DF270085AF52 /* Build configuration list for PBXNativeTarget "DiceBoss" */;
+			buildPhases = (
+				D1427BF61473DF260085AF52 /* Sources */,
+				D1427BF71473DF260085AF52 /* Frameworks */,
+				D1427BF81473DF260085AF52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceBoss;
+			productName = DiceBoss;
+			productReference = D1427BFA1473DF270085AF52 /* DiceBoss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1427C1A1473DF270085AF52 /* DiceBossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1427C2F1473DF270085AF52 /* Build configuration list for PBXNativeTarget "DiceBossTests" */;
+			buildPhases = (
+				D1427C161473DF270085AF52 /* Sources */,
+				D1427C171473DF270085AF52 /* Frameworks */,
+				D1427C181473DF270085AF52 /* Resources */,
+				D1427C191473DF270085AF52 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1427C201473DF270085AF52 /* PBXTargetDependency */,
+			);
+			name = DiceBossTests;
+			productName = DiceBossTests;
+			productReference = D1427C1B1473DF270085AF52 /* DiceBossTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1427BF11473DF260085AF52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D1427BF41473DF260085AF52 /* Build configuration list for PBXProject "DiceBoss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1427BEF1473DF260085AF52;
+			productRefGroup = D1427BFB1473DF270085AF52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1427BF91473DF260085AF52 /* DiceBoss */,
+				D1427C1A1473DF270085AF52 /* DiceBossTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1427BF81473DF260085AF52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1427C091473DF270085AF52 /* InfoPlist.strings in Resources */,
+				D1427C0F1473DF270085AF52 /* Credits.rtf in Resources */,
+				D1427C151473DF270085AF52 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1427C181473DF270085AF52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1427C261473DF270085AF52 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1427C191473DF270085AF52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1427BF61473DF260085AF52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1427C0B1473DF270085AF52 /* main.m in Sources */,
+				D1427C121473DF270085AF52 /* DBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1427C161473DF270085AF52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1427C291473DF270085AF52 /* DiceBossTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1427C201473DF270085AF52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1427BF91473DF260085AF52 /* DiceBoss */;
+			targetProxy = D1427C1F1473DF270085AF52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1427C071473DF270085AF52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1427C081473DF270085AF52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1427C0D1473DF270085AF52 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1427C0E1473DF270085AF52 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D1427C131473DF270085AF52 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1427C141473DF270085AF52 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D1427C241473DF270085AF52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1427C251473DF270085AF52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1427C2A1473DF270085AF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D1427C2B1473DF270085AF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1427C2D1473DF270085AF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceBoss/DiceBoss-Prefix.pch";
+				INFOPLIST_FILE = "DiceBoss/DiceBoss-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1427C2E1473DF270085AF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceBoss/DiceBoss-Prefix.pch";
+				INFOPLIST_FILE = "DiceBoss/DiceBoss-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D1427C301473DF270085AF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiceBoss.app/Contents/MacOS/DiceBoss";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceBoss/DiceBoss-Prefix.pch";
+				INFOPLIST_FILE = "DiceBossTests/DiceBossTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D1427C311473DF270085AF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiceBoss.app/Contents/MacOS/DiceBoss";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceBoss/DiceBoss-Prefix.pch";
+				INFOPLIST_FILE = "DiceBossTests/DiceBossTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1427BF41473DF260085AF52 /* Build configuration list for PBXProject "DiceBoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1427C2A1473DF270085AF52 /* Debug */,
+				D1427C2B1473DF270085AF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1427C2C1473DF270085AF52 /* Build configuration list for PBXNativeTarget "DiceBoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1427C2D1473DF270085AF52 /* Debug */,
+				D1427C2E1473DF270085AF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1427C2F1473DF270085AF52 /* Build configuration list for PBXNativeTarget "DiceBossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1427C301473DF270085AF52 /* Debug */,
+				D1427C311473DF270085AF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1427BF11473DF260085AF52 /* Project object */;
+}

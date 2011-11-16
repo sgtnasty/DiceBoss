@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DiceBoss' target in the 'DiceBoss' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
