@@ -17,6 +17,16 @@
 		D1427C1E1473DF270085AF52 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1427BFE1473DF270085AF52 /* Cocoa.framework */; };
 		D1427C261473DF270085AF52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1427C241473DF270085AF52 /* InfoPlist.strings */; };
 		D1427C291473DF270085AF52 /* DiceBossTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1427C281473DF270085AF52 /* DiceBossTests.m */; };
+		D1ACD11714843FC0005A073C /* d4-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD11214843FC0005A073C /* d4-icon.png */; };
+		D1ACD11814843FC0005A073C /* d6-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD11314843FC0005A073C /* d6-icon.png */; };
+		D1ACD11914843FC0005A073C /* d8-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD11414843FC0005A073C /* d8-icon.png */; };
+		D1ACD11A14843FC0005A073C /* d10-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD11514843FC0005A073C /* d10-icon.png */; };
+		D1ACD11B14843FC0005A073C /* d12-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD11614843FC0005A073C /* d12-icon.png */; };
+		D1ACD11D14844209005A073C /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD11C14844209005A073C /* COPYING */; };
+		D1ACD12014844921005A073C /* d20-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD11F14844921005A073C /* d20-icon.png */; };
+		D1ACD12214846209005A073C /* 3d6.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD12114846209005A073C /* 3d6.png */; };
+		D1ACD1241484663D005A073C /* DiceBoss.icns in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD1231484663D005A073C /* DiceBoss.icns */; };
+		D1ACD1261484673F005A073C /* d100.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD1251484673F005A073C /* d100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +45,30 @@
 		D1427C011473DF270085AF52 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D1427C021473DF270085AF52 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D1427C031473DF270085AF52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D1427C061473DF270085AF52 /* DiceBoss-Info.plist */ = {isa = PBXFileReference; path = "DiceBoss-Info.plist"; sourceTree = "<group>"; };
+		D1427C061473DF270085AF52 /* DiceBoss-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceBoss-Info.plist"; sourceTree = "<group>"; };
 		D1427C081473DF270085AF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1427C0A1473DF270085AF52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1427C0C1473DF270085AF52 /* DiceBoss-Prefix.pch */ = {isa = PBXFileReference; path = "DiceBoss-Prefix.pch"; sourceTree = "<group>"; };
+		D1427C0C1473DF270085AF52 /* DiceBoss-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiceBoss-Prefix.pch"; sourceTree = "<group>"; };
 		D1427C0E1473DF270085AF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D1427C101473DF270085AF52 /* DBAppDelegate.h */ = {isa = PBXFileReference; path = DBAppDelegate.h; sourceTree = "<group>"; };
+		D1427C101473DF270085AF52 /* DBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAppDelegate.h; sourceTree = "<group>"; };
 		D1427C111473DF270085AF52 /* DBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAppDelegate.m; sourceTree = "<group>"; };
 		D1427C141473DF270085AF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D1427C1B1473DF270085AF52 /* DiceBossTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceBossTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1427C1C1473DF270085AF52 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D1427C231473DF270085AF52 /* DiceBossTests-Info.plist */ = {isa = PBXFileReference; path = "DiceBossTests-Info.plist"; sourceTree = "<group>"; };
+		D1427C231473DF270085AF52 /* DiceBossTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceBossTests-Info.plist"; sourceTree = "<group>"; };
 		D1427C251473DF270085AF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D1427C271473DF270085AF52 /* DiceBossTests.h */ = {isa = PBXFileReference; path = DiceBossTests.h; sourceTree = "<group>"; };
+		D1427C271473DF270085AF52 /* DiceBossTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiceBossTests.h; sourceTree = "<group>"; };
 		D1427C281473DF270085AF52 /* DiceBossTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceBossTests.m; sourceTree = "<group>"; };
+		D1ACD11214843FC0005A073C /* d4-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d4-icon.png"; sourceTree = "<group>"; };
+		D1ACD11314843FC0005A073C /* d6-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d6-icon.png"; sourceTree = "<group>"; };
+		D1ACD11414843FC0005A073C /* d8-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d8-icon.png"; sourceTree = "<group>"; };
+		D1ACD11514843FC0005A073C /* d10-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d10-icon.png"; sourceTree = "<group>"; };
+		D1ACD11614843FC0005A073C /* d12-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d12-icon.png"; sourceTree = "<group>"; };
+		D1ACD11C14844209005A073C /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		D1ACD11F14844921005A073C /* d20-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d20-icon.png"; sourceTree = "<group>"; };
+		D1ACD12114846209005A073C /* 3d6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d6.png; sourceTree = "<group>"; };
+		D1ACD1231484663D005A073C /* DiceBoss.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DiceBoss.icns; sourceTree = "<group>"; };
+		D1ACD1251484673F005A073C /* d100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d100.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +134,13 @@
 		D1427C041473DF270085AF52 /* DiceBoss */ = {
 			isa = PBXGroup;
 			children = (
+				D1ACD1231484663D005A073C /* DiceBoss.icns */,
+				D1ACD11E1484448B005A073C /* Media */,
 				D1427C101473DF270085AF52 /* DBAppDelegate.h */,
 				D1427C111473DF270085AF52 /* DBAppDelegate.m */,
 				D1427C131473DF270085AF52 /* MainMenu.xib */,
 				D1427C051473DF270085AF52 /* Supporting Files */,
+				D1ACD11C14844209005A073C /* COPYING */,
 			);
 			path = DiceBoss;
 			sourceTree = "<group>";
@@ -151,6 +174,21 @@
 				D1427C241473DF270085AF52 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1ACD11E1484448B005A073C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				D1ACD1251484673F005A073C /* d100.png */,
+				D1ACD11214843FC0005A073C /* d4-icon.png */,
+				D1ACD11314843FC0005A073C /* d6-icon.png */,
+				D1ACD11414843FC0005A073C /* d8-icon.png */,
+				D1ACD11514843FC0005A073C /* d10-icon.png */,
+				D1ACD11614843FC0005A073C /* d12-icon.png */,
+				D1ACD11F14844921005A073C /* d20-icon.png */,
+				D1ACD12114846209005A073C /* 3d6.png */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +264,16 @@
 				D1427C091473DF270085AF52 /* InfoPlist.strings in Resources */,
 				D1427C0F1473DF270085AF52 /* Credits.rtf in Resources */,
 				D1427C151473DF270085AF52 /* MainMenu.xib in Resources */,
+				D1ACD11714843FC0005A073C /* d4-icon.png in Resources */,
+				D1ACD11814843FC0005A073C /* d6-icon.png in Resources */,
+				D1ACD11914843FC0005A073C /* d8-icon.png in Resources */,
+				D1ACD11A14843FC0005A073C /* d10-icon.png in Resources */,
+				D1ACD11B14843FC0005A073C /* d12-icon.png in Resources */,
+				D1ACD11D14844209005A073C /* COPYING in Resources */,
+				D1ACD12014844921005A073C /* d20-icon.png in Resources */,
+				D1ACD12214846209005A073C /* 3d6.png in Resources */,
+				D1ACD1241484663D005A073C /* DiceBoss.icns in Resources */,
+				D1ACD1261484673F005A073C /* d100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +483,7 @@
 				D1427C2E1473DF270085AF52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1427C2F1473DF270085AF52 /* Build configuration list for PBXNativeTarget "DiceBossTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +492,7 @@
 				D1427C311473DF270085AF52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
