@@ -27,6 +27,8 @@
 		D1ACD12214846209005A073C /* 3d6.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD12114846209005A073C /* 3d6.png */; };
 		D1ACD1241484663D005A073C /* DiceBoss.icns in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD1231484663D005A073C /* DiceBoss.icns */; };
 		D1ACD1261484673F005A073C /* d100.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ACD1251484673F005A073C /* d100.png */; };
+		D1D084D414900C590055D55B /* Misc-Stats-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D084D314900C590055D55B /* Misc-Stats-icon.png */; };
+		D1D084D714900E290055D55B /* th_Fleur_de_Lis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1D084D614900E290055D55B /* th_Fleur_de_Lis.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		D1ACD12114846209005A073C /* 3d6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d6.png; sourceTree = "<group>"; };
 		D1ACD1231484663D005A073C /* DiceBoss.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DiceBoss.icns; sourceTree = "<group>"; };
 		D1ACD1251484673F005A073C /* d100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d100.png; sourceTree = "<group>"; };
+		D1D084D314900C590055D55B /* Misc-Stats-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Misc-Stats-icon.png"; sourceTree = "<group>"; };
+		D1D084D614900E290055D55B /* th_Fleur_de_Lis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = th_Fleur_de_Lis.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +191,8 @@
 				D1ACD11614843FC0005A073C /* d12-icon.png */,
 				D1ACD11F14844921005A073C /* d20-icon.png */,
 				D1ACD12114846209005A073C /* 3d6.png */,
+				D1D084D614900E290055D55B /* th_Fleur_de_Lis.jpg */,
+				D1D084D314900C590055D55B /* Misc-Stats-icon.png */,
 			);
 			name = Media;
 			sourceTree = "<group>";
@@ -274,6 +280,8 @@
 				D1ACD12214846209005A073C /* 3d6.png in Resources */,
 				D1ACD1241484663D005A073C /* DiceBoss.icns in Resources */,
 				D1ACD1261484673F005A073C /* d100.png in Resources */,
+				D1D084D414900C590055D55B /* Misc-Stats-icon.png in Resources */,
+				D1D084D714900E290055D55B /* th_Fleur_de_Lis.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

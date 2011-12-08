@@ -29,8 +29,21 @@
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSArrayController *throwsController;
 @property (copy) NSMutableArray *throwsArray;
-@property (assign) int total;
+@property (copy) NSNumber *total;
+@property (copy) NSNumber *count;
+@property (copy) NSNumber *minimum;
+@property (copy) NSNumber *maximum;
+@property (copy) NSNumber *median;
+@property (copy) NSNumber *average;
 @property (assign) IBOutlet NSTableView *tableView;
+@property (assign) IBOutlet NSPanel *statsPanel;
+
+// stats panel
+@property (assign) IBOutlet NSTextField *minLabel;
+@property (assign) IBOutlet NSTextField *medLabel;
+@property (assign) IBOutlet NSTextField *avgLabel;
+@property (assign) IBOutlet NSTextField *maxLabel;
+@property (assign) IBOutlet NSTextField *countLabel;
 
 -(int)roll:(int)count forD:(int)die;
 -(void)addResult:(int)result forNum:(int)count forDie:(int)dn;
@@ -43,7 +56,11 @@
 -(IBAction)rolld100:(id)sender;
 
 -(IBAction)roll2d6:(id)sender;
+-(IBAction)roll2d10:(id)sender;
 -(IBAction)roll3d6:(id)sender;
 -(IBAction)clearItems:(id)sender;
+-(IBAction)viewStats:(id)sender;
+-(void)resetStats;
+-(void)computeStats;
 
 @end
