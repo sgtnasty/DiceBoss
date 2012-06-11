@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D11BBCF11581214C00FB50E2 /* Info */ = {isa = PBXFileReference; lastKnownFileType = text; name = Info; path = ../../Info; sourceTree = "<group>"; };
 		D1427BFA1473DF270085AF52 /* DiceBoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceBoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1427BFE1473DF270085AF52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D1427C011473DF270085AF52 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -142,6 +143,7 @@
 				D1ACD11E1484448B005A073C /* Media */,
 				D1427C101473DF270085AF52 /* DBAppDelegate.h */,
 				D1427C111473DF270085AF52 /* DBAppDelegate.m */,
+				D11BBCF11581214C00FB50E2 /* Info */,
 				D1427C131473DF270085AF52 /* MainMenu.xib */,
 				D1427C051473DF270085AF52 /* Supporting Files */,
 				D1ACD11C14844209005A073C /* COPYING */,
