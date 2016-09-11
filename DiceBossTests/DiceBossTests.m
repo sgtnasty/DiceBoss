@@ -3,7 +3,7 @@
 //  DiceBossTests
 //
 //  Created by Ronaldo Nascimento on 11/16/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Ronaldo Nascimento. All rights reserved.
 //
 
 #import "DiceBossTests.h"
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in DiceBossTests");
+    XCTFail(@"Unit tests are not implemented yet in DiceBossTests");
 }
 
 @end

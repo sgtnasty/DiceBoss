@@ -3,11 +3,11 @@
 //  DiceBossTests
 //
 //  Created by Ronaldo Nascimento on 11/16/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Ronaldo Nascimento. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface DiceBossTests : SenTestCase
+@interface DiceBossTests : XCTestCase
 
 @end
